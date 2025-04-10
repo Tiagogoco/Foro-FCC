@@ -14,14 +14,25 @@ export const Registro = () => {
         </div>
           <div className="flex flex-col items-start bg-[#1A1A1A] rounded-r-3xl text-white font-bold text-2xl p-6 w-full">
             <form action="" onSubmit={enviado}>
-            <div className="mb-4 mt-60 w-full">
-                <label htmlFor="email" className="block text-[#1E90FF] mb-2 text-md font-bold">Correo electrónico</label>
+            <div className='mb-4 mt-40 w-full'>
+                <label htmlFor="email" className="block text-[#1E90FF] mb-2 text-md font-bold">Nombre de usuario</label>
+                <input
+                  type="username"
+                  id="username"
+                  name="email"
+                  className="w-full px-4 py-2 text-white  placeholder-gray-400 rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Tu nombre de usuario"
+                  required
+                />
+            </div>
+            <div className="mb-4 w-full">
+                <label htmlFor="email" className="block text-[#1E90FF] mb-2 text-md font-bold">Correo institucional</label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   className="w-full px-4 py-2 text-white  placeholder-gray-400 rounded-lg border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  placeholder="Ingresa tu correo"
+                  placeholder="Correo buap"
                   required
                 />
               </div>

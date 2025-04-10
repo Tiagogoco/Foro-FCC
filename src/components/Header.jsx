@@ -27,7 +27,7 @@ export const Header = () => {
         </div>
 
         <div className="flex  items-center mr-1 justify-center flex-row">
-            <div className="flex flex-col md:flex-row px-5 py-3 space-x-3 bg-[#1E90FF] text-white rounded-2xl hover:shadow-md hover:bg-black cursor-pointer space-y-4">
+            <div className="flex flex-col md:flex-row px-5 py-3 space-x-3 bg-[#1E90FF] text-white rounded-2xl hover:shadow-md hover:bg-white hover:text-[#1E90FF] cursor-pointer space-y-4">
                 <a href="crear.html">Crear +</a>
             </div>       
             <div className="rounded-full bg-cyan-800 w-8 h-8 ml-6 cursor-pointer"></div>
